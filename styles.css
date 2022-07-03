@@ -11,12 +11,12 @@
          {
             display:grid;
             grid-template-columns:auto auto ;
-            border-width:1mm;
+            border-width:2mm;
             border-color:aqua;
-            border-radius:0.5mm;
+            border-radius:1mm;
             background-color:blue;
-            padding:1px ; 
-            width:1019px;
+            padding:10px ; 
+            width:1000px;
          } 
          .grid-item
          {
@@ -24,7 +24,6 @@
            text-align: center;
            height:25px;
            font-size:20px;
-           font-family:'Trebuchet MS';
            width:100px;
            border-radius: 1mm;
            border-width:3cm;
@@ -98,6 +97,9 @@ cursor: pointer;
 input[type=submit]:hover {
     background-color: blue;
     }   
+    input[type=submit]:focus {
+        background-color:purple;
+        }   
 .intro{
     display:inline-block;
     width:250px;
@@ -128,3 +130,8 @@ html{
         padding: 30px;
         font-size: 40px;
         }
+
+        .flex-container div:hover {
+            background-color: rgb(25, 149, 70);
+            color: black;
+            }
